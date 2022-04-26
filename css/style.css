@@ -1,11 +1,11 @@
 body{
-    background-image:url(../1229102.jpg);
-   color:rgb(171, 169, 165)
+    background:rgb(32, 32, 32);
+   color:rgb(201, 198, 192)
    
 }
 h1, h2 {
     text-align: center;
-    font-size: 18px;
+    
 }
 
 #game-board{
