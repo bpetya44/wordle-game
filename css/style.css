@@ -3,7 +3,7 @@ body{
    color:rgb(171, 169, 165)
    
 }
-h1, {
+h1, h2 {
     text-align: center;
     font-size: 18px;
 }
