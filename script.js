@@ -7,7 +7,7 @@ let guessesRemaining = NUMBER_OF_GUESSES;
 let currentGuess = [];
 let nextLetter = 0;
 let rightGuessString = WORDS[Math.floor(Math.random() * WORDS.length)]
-//console.log(rightGuessString);
+console.log(rightGuessString);
 
 function initBoard(){
     let board = document.getElementById('game-board')
@@ -110,9 +110,9 @@ function checkGuess(){
         let letter = currentGuess[i]
 
         let letterPosition = rightGuess.indexOf(currentGuess[i])
-        //is letter in the correct guess
+        //is letter in the correct guess 
         if(letterPosition === -1){
-            letterColor ='#444'
+            letterColor ='#313134'
         } else {
             //now letter is deffinately in the word
             // if letter index and right guess index are the same

@@ -1,8 +1,11 @@
 body{
-    background-image:url(sunset-1373171_1920.jpg) ;
+    background-image:url(../1229102.jpg);
+   color:rgb(171, 169, 165)
+   
 }
-h1, h2{
+h1, {
     text-align: center;
+    font-size: 18px;
 }
 
 #game-board{
@@ -12,12 +15,12 @@ h1, h2{
 }
 
 .letter-box{
-    border: 2px solid black;
+    border: 2px solid rgb(71, 69, 69);
     border-radius: 3px;
     margin: 2px;
     font-size: 2.5rem;
     font-weight: 700;
-    height: 3rem;
+    height: 2.5rem;
     width: 3rem;
     display: flex;
     justify-content: center;
@@ -26,7 +29,7 @@ h1, h2{
 }
 
 .filled-box{
-    border: 2px solid black;
+    border: 2px solid rgb(104, 102, 102);
 }
 
 .letter-row {
@@ -55,5 +58,5 @@ h1, h2{
     margin: 0 2px;
     cursor: pointer;
     text-transform: uppercase;
-    background: #0d4e809d;
+    background: #6b7c899d;
   }
